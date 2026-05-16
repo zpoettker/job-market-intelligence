@@ -1,0 +1,3 @@
+-- Job Market Intelligence Platform
+-- Indexes: Performance optimization
+-- Run after schema.sql and after data is loaded

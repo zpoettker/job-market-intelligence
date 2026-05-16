@@ -1,0 +1,3 @@
+-- Job Market Intelligence Platform
+-- Views: Pre-built analytical queries
+-- Run after schema.sql and data is loaded

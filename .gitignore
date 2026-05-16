@@ -1,0 +1,29 @@
+# Environment variables — never commit credentials
+.env
+
+# Data files — too large for git
+data/*.csv
+data/*.json
+data/*.zip
+data/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Kaggle API key
+kaggle.json

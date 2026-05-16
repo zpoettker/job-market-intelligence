@@ -1,0 +1,3 @@
+-- Job Market Intelligence Platform
+-- Schema: Table definitions
+-- Run this first when setting up the database

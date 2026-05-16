@@ -1,0 +1,2 @@
+-- Job Market Intelligence Platform
+-- Stored Procedures: Reusable business logic in the database layer
