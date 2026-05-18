@@ -51,3 +51,23 @@ CREATE TABLE job_skills (
     FOREIGN KEY (job_id) REFERENCES postings(job_id),
     FOREIGN KEY (skill_abr) REFERENCES skills(skill_abr)
 );
+
+CREATE TABLE industries (
+    industry_id INT PRIMARY KEY,
+    industry_name VARCHAR(255)
+);
+
+CREATE TABLE job_industries (
+    job_id INT,
+    industry_id INT,
+    FOREIGN KEY (job_id) REFERENCES postings(job_id),
+    FOREIGN KEY (industry_id) REFERENCES industries(industry_id),
+    PRIMARY KEY (job_id, industry_id)
+);
+
+CREATE TABLE company_industries (
+    company_id INT,
+    industry VARCHAR(255),
+    PRIMARY KEY (company_id, industry),
+    FOREIGN KEY (company_id) REFERENCES companies(company_id)
+);
